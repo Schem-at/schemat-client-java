@@ -16,6 +16,7 @@ import java.util.UUID;
 // TODO: Use something like lombok for the request and response classes
 // TODO: Maybe move some http boilerplate to the helpers class
 // TODO: Add user agent to http requests (probably move that to the helpers class)
+// TODO: Create api client classes for the mojang and schemat apis (easier to test & allows for dependency injection)
 
 public class SchematClient implements ISchematClient {
     private static final ObjectMapper objectMapper = new ObjectMapper();
