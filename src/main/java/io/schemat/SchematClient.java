@@ -15,6 +15,7 @@ import java.util.UUID;
 // TODO: Handle exceptions properly
 // TODO: Use something like lombok for the request and response classes
 // TODO: Maybe move some http boilerplate to the helpers class
+// TODO: Add user agent to http requests (probably move that to the helpers class)
 
 public class SchematClient implements ISchematClient {
     private static final ObjectMapper objectMapper = new ObjectMapper();
